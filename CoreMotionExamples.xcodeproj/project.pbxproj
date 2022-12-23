@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B1C9C48296A159F004A38EE /* SensorDataThree.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C9C46296A159F004A38EE /* SensorDataThree.xcdatamodeld */; };
+		8B1C9C4C296A1DC3004A38EE /* Speedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C9C4B296A1DC3004A38EE /* Speedometer.swift */; };
+		8BA663F4296C557C00ED3DE2 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA663F3296C557C00ED3DE2 /* Helpers.swift */; };
+		8BA663F6296C62CF00ED3DE2 /* DrivesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA663F5296C62CF00ED3DE2 /* DrivesListView.swift */; };
+		8BA663F8296C8DD600ED3DE2 /* DrivingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA663F7296C8DD600ED3DE2 /* DrivingView.swift */; };
+		8BA663FA296C915F00ED3DE2 /* SheetsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA663F9296C915F00ED3DE2 /* SheetsState.swift */; };
+		8BA663FC296C9D9100ED3DE2 /* EndDriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA663FB296C9D9100ED3DE2 /* EndDriveView.swift */; };
+		8BEF2B352950E6EE00F1CD86 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF2B342950E6EE00F1CD86 /* DataController.swift */; };
+		BF68862E28FD3A8100A5507F /* CoreMotionExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68862D28FD3A8100A5507F /* CoreMotionExamplesApp.swift */; };
+		BF68863028FD3A8100A5507F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68862F28FD3A8100A5507F /* ContentView.swift */; };
+		BF68863228FD3A8200A5507F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF68863128FD3A8200A5507F /* Assets.xcassets */; };
+		BF68863528FD3A8200A5507F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF68863428FD3A8200A5507F /* Preview Assets.xcassets */; };
+		BF68863C28FD3DB800A5507F /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68863B28FD3DB800A5507F /* MotionManager.swift */; };
+		BF68863E28FD608800A5507F /* MotionTypeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68863D28FD608800A5507F /* MotionTypeDetailView.swift */; };
+		BF68864028FD620B00A5507F /* DeviceMotionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68863F28FD620B00A5507F /* DeviceMotionDetailView.swift */; };
+		BF68864228FD779A00A5507F /* DeviceMotionTypeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68864128FD779A00A5507F /* DeviceMotionTypeDetailView.swift */; };
+		BF68864428FD7C6C00A5507F /* SensorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68864328FD7C6C00A5507F /* SensorDetailView.swift */; };
+		BF68866C28FED4B800A5507F /* AccelerometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68866B28FED4B800A5507F /* AccelerometerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B1C9C47296A159F004A38EE /* SensorData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SensorData.xcdatamodel; sourceTree = "<group>"; };
+		8B1C9C49296A15EF004A38EE /* SensorData 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "SensorData 4.xcdatamodel"; sourceTree = "<group>"; };
+		8B1C9C4A296A168D004A38EE /* SensorDataV4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SensorDataV4.xcdatamodel; sourceTree = "<group>"; };
+		8B1C9C4B296A1DC3004A38EE /* Speedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speedometer.swift; sourceTree = "<group>"; };
+		8BA663F2296C4BB500ED3DE2 /* SensorDataV5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SensorDataV5.xcdatamodel; sourceTree = "<group>"; };
+		8BA663F3296C557C00ED3DE2 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		8BA663F5296C62CF00ED3DE2 /* DrivesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivesListView.swift; sourceTree = "<group>"; };
+		8BA663F7296C8DD600ED3DE2 /* DrivingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingView.swift; sourceTree = "<group>"; };
+		8BA663F9296C915F00ED3DE2 /* SheetsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsState.swift; sourceTree = "<group>"; };
+		8BA663FB296C9D9100ED3DE2 /* EndDriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndDriveView.swift; sourceTree = "<group>"; };
+		8BEF2B342950E6EE00F1CD86 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		BF68862A28FD3A8100A5507F /* CoreMotionExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMotionExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF68862D28FD3A8100A5507F /* CoreMotionExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionExamplesApp.swift; sourceTree = "<group>"; };
+		BF68862F28FD3A8100A5507F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF68863128FD3A8200A5507F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF68863428FD3A8200A5507F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF68863B28FD3DB800A5507F /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		BF68863D28FD608800A5507F /* MotionTypeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTypeDetailView.swift; sourceTree = "<group>"; };
+		BF68863F28FD620B00A5507F /* DeviceMotionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMotionDetailView.swift; sourceTree = "<group>"; };
+		BF68864128FD779A00A5507F /* DeviceMotionTypeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMotionTypeDetailView.swift; sourceTree = "<group>"; };
+		BF68864328FD7C6C00A5507F /* SensorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorDetailView.swift; sourceTree = "<group>"; };
+		BF68864528FD88C200A5507F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BF68866B28FED4B800A5507F /* AccelerometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF68862728FD3A8100A5507F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BEF2B2E2950DFEE00F1CD86 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				8BEF2B342950E6EE00F1CD86 /* DataController.swift */,
+				8B1C9C46296A159F004A38EE /* SensorDataThree.xcdatamodeld */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		BF68862128FD3A8100A5507F = {
+			isa = PBXGroup;
+			children = (
+				BF68862C28FD3A8100A5507F /* CoreMotionExamples */,
+				BF68862B28FD3A8100A5507F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF68862B28FD3A8100A5507F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF68862A28FD3A8100A5507F /* CoreMotionExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF68862C28FD3A8100A5507F /* CoreMotionExamples */ = {
+			isa = PBXGroup;
+			children = (
+				8BEF2B2E2950DFEE00F1CD86 /* CoreDataManager */,
+				BF68864528FD88C200A5507F /* Info.plist */,
+				BF68864128FD779A00A5507F /* DeviceMotionTypeDetailView.swift */,
+				BF68862D28FD3A8100A5507F /* CoreMotionExamplesApp.swift */,
+				BF68862F28FD3A8100A5507F /* ContentView.swift */,
+				BF68863128FD3A8200A5507F /* Assets.xcassets */,
+				BF68863328FD3A8200A5507F /* Preview Content */,
+				BF68863B28FD3DB800A5507F /* MotionManager.swift */,
+				BF68863D28FD608800A5507F /* MotionTypeDetailView.swift */,
+				BF68863F28FD620B00A5507F /* DeviceMotionDetailView.swift */,
+				BF68864328FD7C6C00A5507F /* SensorDetailView.swift */,
+				BF68866B28FED4B800A5507F /* AccelerometerView.swift */,
+				8B1C9C4B296A1DC3004A38EE /* Speedometer.swift */,
+				8BA663F3296C557C00ED3DE2 /* Helpers.swift */,
+				8BA663F5296C62CF00ED3DE2 /* DrivesListView.swift */,
+				8BA663F7296C8DD600ED3DE2 /* DrivingView.swift */,
+				8BA663F9296C915F00ED3DE2 /* SheetsState.swift */,
+				8BA663FB296C9D9100ED3DE2 /* EndDriveView.swift */,
+			);
+			path = CoreMotionExamples;
+			sourceTree = "<group>";
+		};
+		BF68863328FD3A8200A5507F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF68863428FD3A8200A5507F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF68862928FD3A8100A5507F /* CoreMotionExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF68863828FD3A8200A5507F /* Build configuration list for PBXNativeTarget "CoreMotionExamples" */;
+			buildPhases = (
+				BF68862628FD3A8100A5507F /* Sources */,
+				BF68862728FD3A8100A5507F /* Frameworks */,
+				BF68862828FD3A8100A5507F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreMotionExamples;
+			packageProductDependencies = (
+			);
+			productName = CoreMotionExamples;
+			productReference = BF68862A28FD3A8100A5507F /* CoreMotionExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF68862228FD3A8100A5507F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BF68862928FD3A8100A5507F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BF68862528FD3A8100A5507F /* Build configuration list for PBXProject "CoreMotionExamples" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF68862128FD3A8100A5507F;
+			packageReferences = (
+			);
+			productRefGroup = BF68862B28FD3A8100A5507F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF68862928FD3A8100A5507F /* CoreMotionExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF68862828FD3A8100A5507F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF68863528FD3A8200A5507F /* Preview Assets.xcassets in Resources */,
+				BF68863228FD3A8200A5507F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF68862628FD3A8100A5507F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA663F8296C8DD600ED3DE2 /* DrivingView.swift in Sources */,
+				8B1C9C4C296A1DC3004A38EE /* Speedometer.swift in Sources */,
+				BF68866C28FED4B800A5507F /* AccelerometerView.swift in Sources */,
+				BF68863028FD3A8100A5507F /* ContentView.swift in Sources */,
+				BF68863C28FD3DB800A5507F /* MotionManager.swift in Sources */,
+				8BA663F6296C62CF00ED3DE2 /* DrivesListView.swift in Sources */,
+				BF68864228FD779A00A5507F /* DeviceMotionTypeDetailView.swift in Sources */,
+				BF68862E28FD3A8100A5507F /* CoreMotionExamplesApp.swift in Sources */,
+				8B1C9C48296A159F004A38EE /* SensorDataThree.xcdatamodeld in Sources */,
+				8BA663FC296C9D9100ED3DE2 /* EndDriveView.swift in Sources */,
+				8BA663F4296C557C00ED3DE2 /* Helpers.swift in Sources */,
+				BF68863E28FD608800A5507F /* MotionTypeDetailView.swift in Sources */,
+				8BA663FA296C915F00ED3DE2 /* SheetsState.swift in Sources */,
+				BF68864428FD7C6C00A5507F /* SensorDetailView.swift in Sources */,
+				BF68864028FD620B00A5507F /* DeviceMotionDetailView.swift in Sources */,
+				8BEF2B352950E6EE00F1CD86 /* DataController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF68863628FD3A8200A5507F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF68863728FD3A8200A5507F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF68863928FD3A8200A5507F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreMotionExamples/Preview Content\"";
+				DEVELOPMENT_TEAM = R9XJ622U85;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoreMotionExamples/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSMotionUsageDescription = "For stepcounter";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "accelerometer gyroscope";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.fontys.CoreMotionExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF68863A28FD3A8200A5507F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreMotionExamples/Preview Content\"";
+				DEVELOPMENT_TEAM = R9XJ622U85;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoreMotionExamples/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSMotionUsageDescription = "For stepcounter";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "accelerometer gyroscope";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.fontys.CoreMotionExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF68862528FD3A8100A5507F /* Build configuration list for PBXProject "CoreMotionExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF68863628FD3A8200A5507F /* Debug */,
+				BF68863728FD3A8200A5507F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF68863828FD3A8200A5507F /* Build configuration list for PBXNativeTarget "CoreMotionExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF68863928FD3A8200A5507F /* Debug */,
+				BF68863A28FD3A8200A5507F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B1C9C46296A159F004A38EE /* SensorDataThree.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8BA663F2296C4BB500ED3DE2 /* SensorDataV5.xcdatamodel */,
+				8B1C9C4A296A168D004A38EE /* SensorDataV4.xcdatamodel */,
+				8B1C9C49296A15EF004A38EE /* SensorData 4.xcdatamodel */,
+				8B1C9C47296A159F004A38EE /* SensorData.xcdatamodel */,
+			);
+			currentVersion = 8B1C9C47296A159F004A38EE /* SensorData.xcdatamodel */;
+			name = SensorDataThree.xcdatamodeld;
+			path = "../Preview Content/SensorDataThree.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF68862228FD3A8100A5507F /* Project object */;
+}
